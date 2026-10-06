@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "lib": ["DOM", "ESNext"],
+        "allowJs": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "paths": {
+            "@ning-cli/*": ["./packages/@ning-cli/*/src"]
+        }
+    },
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Base",
+    "include": ["packages/**/*"],
+    // 让 TypeScript 不再把构建产物 dist 目录当作输入源文件扫描，从而避免了输出覆盖输入的冲突
+    "exclude": ["packages/cli/templates", "**/dist"]
+}
