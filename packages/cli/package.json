@@ -1,6 +1,6 @@
 {
-    "name": "@ning-cli/cli",
-    "version": "0.0.1",
+    "name": "@nz-cli/cli",
+    "version": "0.0.2",
     "description": "ning-cli 脚手架",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",

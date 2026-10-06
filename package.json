@@ -1,5 +1,5 @@
 {
-    "name": "ning-cli",
+    "name": "nz-cli",
     "version": "0.0.1",
     "description": "ning-cli 脚手架",
     "packageManager": "pnpm@9.7.0",
